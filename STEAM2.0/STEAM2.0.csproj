@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,8 +55,48 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MandlVolek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MandlVolek.Designer.cs">
+      <DependentUpon>MandlVolek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarxYLanghenheim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarxYLanghenheim.Designer.cs">
+      <DependentUpon>MarxYLanghenheim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfficeHandler.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="projectName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="projectName.Designer.cs">
+      <DependentUpon>projectName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Propiedades\propMandlVolek.cs" />
+    <Compile Include="Propiedades\propMarxYLangenheim.cs" />
+    <Compile Include="Propiedades\propVapor.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MandlVolek.resx">
+      <DependentUpon>MandlVolek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarxYLanghenheim.resx">
+      <DependentUpon>MarxYLanghenheim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm.resx">
+      <DependentUpon>MDIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="projectName.resx">
+      <DependentUpon>projectName.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +106,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\MandlVolek.datasource" />
+    <None Include="Properties\DataSources\MarxYLanghenheim.datasource" />
+    <None Include="Properties\DataSources\MDIForm.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\projectName.datasource" />
+    <None Include="Properties\DataSources\STEAM2._0.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\STEAM2._0.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
