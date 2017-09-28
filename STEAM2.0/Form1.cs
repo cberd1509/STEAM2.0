@@ -83,5 +83,13 @@ namespace STEAM2._0
                 toolStripStatusLabel1.Text = "Steam 2.0 Cargado Correctamente";
             }
         }
+
+        private void bobergLantzToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string nombre = AskName();
+            BobergLantz form = new BobergLantz(nombre);
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }
