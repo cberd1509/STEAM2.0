@@ -36,9 +36,10 @@
             this.modeloAnalíticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.marxYLanghenheimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mandiYVolekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bobergLantzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelPrincipal = new System.Windows.Forms.TabControl();
-            this.bobergLantzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gontijoYAzisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -95,7 +96,8 @@
             this.modeloAnalíticoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.marxYLanghenheimToolStripMenuItem,
             this.mandiYVolekToolStripMenuItem,
-            this.bobergLantzToolStripMenuItem});
+            this.bobergLantzToolStripMenuItem,
+            this.gontijoYAzisToolStripMenuItem});
             this.modeloAnalíticoToolStripMenuItem.Name = "modeloAnalíticoToolStripMenuItem";
             this.modeloAnalíticoToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.modeloAnalíticoToolStripMenuItem.Text = "Modelo Analítico";
@@ -114,6 +116,13 @@
             this.mandiYVolekToolStripMenuItem.Text = "Mandl y Volek";
             this.mandiYVolekToolStripMenuItem.Click += new System.EventHandler(this.mandiYVolekToolStripMenuItem_Click);
             // 
+            // bobergLantzToolStripMenuItem
+            // 
+            this.bobergLantzToolStripMenuItem.Name = "bobergLantzToolStripMenuItem";
+            this.bobergLantzToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.bobergLantzToolStripMenuItem.Text = "Boberg y Lantz";
+            this.bobergLantzToolStripMenuItem.Click += new System.EventHandler(this.bobergLantzToolStripMenuItem_Click);
+            // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
@@ -129,12 +138,12 @@
             this.panelPrincipal.Size = new System.Drawing.Size(703, 329);
             this.panelPrincipal.TabIndex = 2;
             // 
-            // bobergLantzToolStripMenuItem
+            // gontijoYAzisToolStripMenuItem
             // 
-            this.bobergLantzToolStripMenuItem.Name = "bobergLantzToolStripMenuItem";
-            this.bobergLantzToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.bobergLantzToolStripMenuItem.Text = "Boberg y Lantz";
-            this.bobergLantzToolStripMenuItem.Click += new System.EventHandler(this.bobergLantzToolStripMenuItem_Click);
+            this.gontijoYAzisToolStripMenuItem.Name = "gontijoYAzisToolStripMenuItem";
+            this.gontijoYAzisToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.gontijoYAzisToolStripMenuItem.Text = "Gontijo y Azis";
+            this.gontijoYAzisToolStripMenuItem.Click += new System.EventHandler(this.gontijoYAzisToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -173,6 +182,7 @@
         private System.Windows.Forms.ToolStripMenuItem marxYLanghenheimToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mandiYVolekToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bobergLantzToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gontijoYAzisToolStripMenuItem;
     }
 }
 

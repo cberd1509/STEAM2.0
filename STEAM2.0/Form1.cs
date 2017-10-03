@@ -91,5 +91,13 @@ namespace STEAM2._0
             form.MdiParent = this;
             form.Show();
         }
+
+        private void gontijoYAzisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string nombre = AskName();
+            GontijoAzis form = new GontijoAzis(nombre);
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }
