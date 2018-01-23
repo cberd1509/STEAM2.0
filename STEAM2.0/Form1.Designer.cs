@@ -176,7 +176,6 @@
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nuevoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
-        private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabControl panelPrincipal;
         private System.Windows.Forms.ToolStripMenuItem modeloAnalíticoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem marxYLanghenheimToolStripMenuItem;
